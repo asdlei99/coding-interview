@@ -44,7 +44,9 @@ brute force compare...
     - count of [5, 5] = @upper_bound - @lower_bound + 1 = 3 - 2 + 1 = 2
 
 **Average Time conplexity: O(nlogn + mlogn)**
+
 **Worst Time conplexity: O(nm)**
+
 **Space complexity: O(1)**
 
   
@@ -68,6 +70,7 @@ ex: count of [2, 9] = accumulative[@9] - accumulative[@1] = accumulative[5] - ac
     count of [5, 5] = accumulative[@5] - accumulative[@4] = accumulative[3] - accumulative[2] = 2
 
 **Time conplexity: O(nlogn + mlogm)**
+
 **Space complexity: O(m)**
     
 ### Algorithm 4
@@ -84,4 +87,5 @@ ex: [0, 1, 1, 2, 2, 4, 4, 4, 4, 4, 5]
 3. Count of (lower_bound, upper_bound) = I[upper_bound] - I[lower_bound] + 1
 
 **Time complexity: O(n + r), where r is maximum of score**
+
 **Space complexity: O( r), where r is maximum of score**
